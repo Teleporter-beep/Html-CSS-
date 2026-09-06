@@ -1,0 +1,109 @@
+body{
+    font-family: Roboto;
+    background-color: black;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-card, .tpicture {
+    width: 392.25px;
+    border-radius: 12px;
+}
+.channel-picture{
+    display: inline-block;
+    vertical-align: top;
+}
+.cpicture {
+    width: 36px;
+    border-radius: 36px;
+    
+}
+
+.stats{
+    width: 280px;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.title_text{
+    font-weight: 700;
+    color: white;
+}
+
+.channel_text{
+    margin-top: 4px;
+    font-weight: 400;
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+}
+
+.views_text{
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(170, 170, 170);
+}
+.tick {
+    width:14px;
+}
+.channel_name{
+    display: inline-block;
+}
+.tick_mark{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 2px;
+    margin-top: 20px;
+}
+.bottom{
+    display:inline-block;
+    
+}
+
+.three{
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    
+}
+.buton{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-left: 28px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.buton:hover{
+    background-color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+
+.video-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.channel_text:hover{
+    color: white;
+}
+
+.video-card{
+    transition: 0.2s;
+    margin: 50px;
+    
+}
+
+
+
+
