@@ -1,0 +1,120 @@
+body{
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.webpage {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.top-bar{
+    background-color: lightblue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar {
+    position: relative;
+    display: inline-block;
+}
+
+.search-box {
+    background-color: transparent;
+    border-style:solid;
+    border-color: rgba(0, 0, 0, 0.658);
+    border-radius: 20px;
+    border-width: 1px;
+    width: 400px;
+    height: 30px;
+    padding-left: 20px;
+   
+}
+.search-box:focus {
+    outline: none;               /* removes the default blue browser outline */
+    border-color: rgb(35, 121, 250);  /* highlight border to match your button's blue */
+    border-width: 2px;
+    box-shadow: 0 0 5px rgba(35, 121, 250, 0.4); /* soft glow effect */
+}
+.search-button {
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(35, 121, 250);
+    height: 33.6px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+    border: none;
+    transition: 0.1s;
+    
+}
+.search-button:hover {
+    transform: scale(1.2);
+    cursor: pointer;  
+}
+
+.left-bar{
+    background-color: rgb(255, 173, 255);
+    width: 80px;
+    height: 100%;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.grid-container {
+    padding-right: 30px;
+    padding-left: 60px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.video-card{
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.1s;
+}
+
+.video-card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.thumbnail-image {
+    background-color: gainsboro;
+    height: 150px;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 40px 1fr ;
+}
+
+.channel-image{
+    background-color: lightpink;
+    text-align: center;
+}
+
+.stats {
+    text-align: center;
+}
+
+.title{
+    background-color: tan;
+}
+
+.channel-name {
+    background-color: gray;
+}
+
+.views {
+    background-color: blanchedalmond;
+}
