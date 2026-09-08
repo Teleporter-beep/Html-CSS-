@@ -1,0 +1,112 @@
+.video-card {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    cursor: pointer;
+    
+}
+
+.thumbnail-image-container {
+    position: relative;
+}
+
+
+.thumbnail-image {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    display:block;
+    border-radius: 12px;
+}
+
+.video-time-text{
+    position:absolute;
+    bottom: 8px;
+    right: 8px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 2px;
+}
+
+
+.thumbnail-bottom {
+    display:flex;
+    margin-top: 12px;
+    justify-content: space-between;
+
+}
+
+.channel-image-container {
+    width: 36px;
+}
+
+.channel-image{
+    width: 100%;
+    border-radius: 36px; 
+}
+
+.information-container {
+    flex: 1;
+    margin-left: 10px;
+
+}
+.video-name-text {
+    color:rgba(0, 0, 0, 0.89);
+    font-weight: 700; 
+    font-size:16px;
+}
+
+.channel-name-container {
+    display: flex;
+    align-items:center;
+    width: fit-content;
+}
+
+
+.channel-name-container:hover .channel-name-text {
+    color: rgb(85, 85, 85);
+}
+
+
+.channel-name-text,.views-text {
+    color:rgba(0, 0, 0, 0.616);
+    font-size: 14px;
+    font-weight:500;
+    margin-top: 6px;
+}
+
+
+.tick-image {
+    width: 13px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+
+
+.three-dot-button-container{ 
+    width: 40px;
+    margin-top: -5px;
+    margin-right: -5px;
+}
+
+.three-dot-button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 80px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding:0;
+    height: 40px;
+    font-weight: 900;
+}
+
+.three-dot-button:hover {
+    background-color: rgba(58, 58, 58, 0.24);
+    cursor: pointer; 
+    color: black;
+}
+

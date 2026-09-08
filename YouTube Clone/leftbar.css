@@ -1,0 +1,40 @@
+.left-bar{
+    display: flex;
+    width: 80px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top:56px;
+    left:0;
+    bottom: 0;
+    align-items: center;
+    flex-direction: column;
+    z-index:100;
+
+}
+
+.home-button, .explore-button, .subscription-button, .originals-button, .yt-music-button, .library-button {
+    width:24px;
+}
+
+.left-bar-container {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-bar-button{
+    font-size: 11px;
+    text-align:center;
+    margin: 1px;
+    font-weight:500;
+    width: 90%;
+    height:80px;
+    border: none;
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+.left-bar-button:hover {
+    cursor: pointer;
+    background-color: rgba(71, 71, 71, 0.13);
+}
